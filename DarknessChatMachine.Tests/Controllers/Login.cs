@@ -13,7 +13,7 @@ namespace DarknessChatMachine.Tests.Controllers
             try
             {
                 Client client = new Client();
-                client.getQRCode();
+                client.login();
             }
             catch (Exception e)
             {
